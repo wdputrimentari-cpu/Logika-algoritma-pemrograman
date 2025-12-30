@@ -1,0 +1,7 @@
+from utils import format_rupiah
+
+harga = int(input("Masukkan jumlah uang: "))
+
+hasil = format_rupiah(harga)
+
+print("Format Rupiah:", hasil)

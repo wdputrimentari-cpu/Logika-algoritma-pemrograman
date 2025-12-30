@@ -1,0 +1,9 @@
+from utils import hitung_total, parse_list
+
+data = input("Masukkan angka (pisahkan dengan spasi): ")
+
+data = parse_list(data)
+
+total = hitung_total(data)
+
+print("Total:", total)

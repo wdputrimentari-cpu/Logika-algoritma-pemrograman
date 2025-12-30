@@ -1,0 +1,2 @@
+def hitung_total_diskon(total, diskon):
+    return total - (total * diskon / 100)

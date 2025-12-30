@@ -1,0 +1,8 @@
+from utils import hitung_total_diskon
+
+total = int(input("Masukkan total harga: "))
+diskon = int(input("Masukkan diskon (%): "))
+
+hasil = hitung_total_diskon(total, diskon)
+
+print("Total bayar setelah diskon:", hasil)

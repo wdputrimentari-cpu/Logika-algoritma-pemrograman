@@ -1,0 +1,8 @@
+def hitung_total(data):
+    total = 0
+    for nilai in data:
+        total = total + nilai
+    return total
+
+def parse_list(list_string):
+    return list(map(int, list_string.split()))
